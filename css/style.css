@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* HEADER */
+#header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    background: #fff;
+    border-bottom: 2px solid #143292;
+    margin: 0 auto;
+    width: 1200px;
+    height: 100px;
+    position: relative;
+}
+/* LOGO */
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+/* NAVIGATION */
+.nav{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 700px;
+    height: 40px;
+    z-index: 2;
+}
+.subnav{
+    display: block;
+    float: left;
+    width: 174px;
+    height: 40px;
+}
+.subnav>a{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.subnav:hover>a{
+    text-decoration: underline;
+    background: #143292;
+    color: #fff;
+}
+.subnav ul{
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+
+    display: none;
+}
+.subnav ul li{
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+}
+.subnav ul li:hover{
+    background: #fff;
+}
+.subnav ul li:hover a{
+    color: #222328;
+}
+.subnav ul li a{
+    color: #fff;
+}
+/* FOOTER */
+.footer{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background: #143292;
+    position: relative;
+    display: block;
+}
+/* LOGO */
+    .logo2{
+        position: absolute;
+        float: left;
+        width: 250px;
+        height: 100%;
+        /* background: red; */
+    }
+    .logo2 a{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+/* COPYRIGHT */
+    .copyright{
+        position: absolute;
+        top: 0;
+        left: 250px;
+        width: 700px;
+        height: 100%;
+        display: block;
+    }
+/* MENU */
+    .menu ul li{
+        width: 230px;
+        line-height: 30px;
+        margin-top: 5px;
+        float: left;
+        text-align: center;
+    }
+    .menu ul li a{
+        color: #fff;
+    }
+    .menu ul li:hover a{
+        text-decoration: underline;
+    }
+/* COPYRIGHT TEXT */
+    .copyright p{
+        text-align: center;
+        font-size: 13px;
+        color: #ccc;
+        margin-bottom: 3px;
+    }
+    .copyright h5{
+        text-align: center;
+        color: #ccc;
+        font-size: 13px;
+    }
+    .copyright address{
+        text-align: center;
+        color: #ccc;
+        font-size: 13px;
+        font-style: normal;
+    }
+/* SNS */
+    .sns{
+        position: relative;
+        width: 250px;
+        height: 100%;
+        float: right;
+    }
+    .sns-icons{
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .sns-icons a{
+        width: 30px;
+        margin: 0 10px;
+    }
+    .sns-icons a img{
+        padding-top: 5px;
+        width: 100%;
+        transition: 0.5s;
+    }
+    .sns-icons a:hover img{
+        transform: scale(1.5);
+    }
+/* POPUP */
+    .popup{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: #143292;
+        border: 2px solid #fff;
+        width: 600px;
+        height: 300px;
+        padding: 10px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.539);
+
+        z-index: 100;
+
+        display: none;
+    }
+/* POPUP TEXT */
+    .popup-text h3{
+        color: #fff;
+        font-size: 20px;
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+    .popup-text h4{
+        color: #fff;
+        font-size: 20px;
+    }
+    .popup-text p{
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .btn{
+        position: absolute;
+        width: 70px;
+        height: 35px;
+        right: 10px;
+        bottom: 10px;
+        font-weight: bold;
+        background: none;
+        color: #fff;
+        border: 2px solid #fff;
+        transition: 0.2s;        
+    }
+    .btn:hover{
+        background: #fff;
+        color: #143292;
+    }
